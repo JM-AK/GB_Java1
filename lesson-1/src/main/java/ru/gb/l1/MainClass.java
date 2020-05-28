@@ -2,7 +2,7 @@ package ru.gb.l1;
 
 public class MainClass {
     public static void main(String[] args) {
-        System.out.println(task3());
+        System.out.println(task3(1.2f,2.0f,3.2f,4.0f));
         System.out.println(task4(5,10));
         task5(-5);
         System.out.println(task6(-4));
@@ -11,16 +11,13 @@ public class MainClass {
 
     }
 
-    public static float task3(){
-        float a = 1.1f, b =2.2f, c = 3.3f, d = 4.4f;
-        float result = a * (b + (c/d));
-        return result;
+    public static float task3(float a, float b, float c, float d){
+        return a * (b + (c/d));
     }
 
     public static boolean task4(int a, int b){
         int sum = a +b;
-        boolean check = (sum>=10 && sum<=20);
-        return check;
+        return (sum>=10 && sum<=20);
     }
 
     public static void task5(int a){
