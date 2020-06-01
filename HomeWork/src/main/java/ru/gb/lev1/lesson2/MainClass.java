@@ -4,42 +4,56 @@ import java.util.Arrays;
 
 public class MainClass {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(switchArrZeroToOne(new int[] {1,1,0,0,1,0,1,1,0,0})));
-        System.out.println(Arrays.toString(createCopyArray(new int[] {0,3,6,9,12,15,18,21}, 8)));
-        System.out.println(Arrays.toString(doubleArrLessSix(new int[] {1,5,3,2,11,4,5,2,4,8,9,1})));
-        System.out.println(Arrays.deepToString(createUnitMatrix(4)));
-        findMinMaxOfArray(new int[]{1,2,3,4,5,6,7,8,});
-        System.out.println(checkBalanceOfArr(new int[] {2,2,1,2, 2, 9, 0}));
-        System.out.println(Arrays.toString(offsetArrayWithCopyArr(new int[] {1,2,3,4,5}, -2)));
-        System.out.println(Arrays.toString(offsetArrayHard(new int[] {1,2,3,4,5}, -2)));
+        int [] arr1 = {1,1,0,0,1,0,1,1,0,0};
+        switchArrZeroToOne(arr1);
+        System.out.println(Arrays.toString(arr1));
+
+        int[] arr2 = createProgressionArray(8);
+        System.out.println(Arrays.toString(arr2));
+
+        doubleArrLessSix(arr2);
+        System.out.println(Arrays.toString(arr2));
+
+        int[][] arr3 = createUnitMatrix(5);
+        System.out.println(Arrays.deepToString(arr3));
+
+        findMinMaxOfArray(arr2);
+
+        int[] arr4 = {2,2,1,2, 2, 9, 0};
+        System.out.println(checkBalanceOfArr(arr4));
+
+        offsetArrayWithCopyArr(arr4,-2);
+        System.out.println(Arrays.toString(arr4));
+
+        offsetArrayHard(arr4, 2);
+        System.out.println(Arrays.toString(arr4));
 
     }
 
     /*1. Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
       С помощью цикла и условия заменить 0 на 1, 1 на 0;
        */
-    public static int[] switchArrZeroToOne(int[] array){
+    public static void switchArrZeroToOne(int[] array){
         for(int i =0; i<array.length; i++){
             array[i] = (array[i]==1)? 0 : 1;
         }
-        return array;
+
     }
 
     /*2. Задать пустой целочисленный массив размером 8. С помощью цикла заполнить его значениями 0 3 6 9 12 15 18 21;
      */
-    public static int[] createCopyArray(int[] array, int n){
-        int[] copyArr = new int [n];
-        for (int i=0; i<copyArr.length; i++){
-            copyArr[i] = array[i];
+    public static int[] createProgressionArray(int n){
+        int[] arr = new int[n];
+        for (int i=0; i<n; i++){
+            arr[i] = i * 3;
         }
-        return copyArr;
+        return arr;
     }
 
     /*3. Задать массив [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ] пройти по нему циклом, и числа меньшие 6 умножить на 2;
      */
-    public static int[] doubleArrLessSix(int[] array){
+    public static void doubleArrLessSix(int[] array){
         for (int i=0; i < array.length; i++) array[i] = (array[i]<6)? array[i]*2 : array[i];
-        return array;
     }
 
     /*4. Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое),
@@ -47,7 +61,10 @@ public class MainClass {
     */
     public static int[][] createUnitMatrix (int n){
         int [][] matrix = new int [n][n];
-        for (int i=0; i<n; i++) matrix[i][i] = 1;
+        for (int i=0; i<n; i++) {
+            matrix[i][i] = 1;
+            matrix[i][n-i-1] = 1;
+        }
         return matrix;
     }
 
@@ -85,7 +102,7 @@ public class MainClass {
     (может быть положительным, или отрицательным), при этом метод должен сместить все элементымассива на n позиций.
     Для усложнения задачи нельзя пользоваться вспомогательными массивами.
      */
-    public static int[] offsetArrayWithCopyArr(int[] array, int n){
+    public static void offsetArrayWithCopyArr(int[] array, int n){
         n = n % array.length;
         n = (n>0)? n: n+array.length;
 
@@ -94,14 +111,15 @@ public class MainClass {
         for (int i=0; i<array.length; i++) {
             if(i+n > array.length-1){
                 array[(i+n) % array.length] = copyArr[i];
-            } else array[i+n] = copyArr[i];
+            } else {
+                array[i+n] = copyArr[i];
+            }
 
         }
 
-        return array;
     }
 
-    public static int[] offsetArrayHard(int[] array, int n){
+    public static void offsetArrayHard(int[] array, int n){
         n = n % array.length;
         n = (n>0)? n: n+array.length;
 
@@ -121,7 +139,6 @@ public class MainClass {
             count++;
         }
 
-        return array;
     }
 
 
