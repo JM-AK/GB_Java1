@@ -16,17 +16,48 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:lesson-3" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10254e7-983a-4438-9771-bfdcb5bdc34c" name="Default Changelist" comment="" />
+    <list default="true" id="e10254e7-983a-4438-9771-bfdcb5bdc34c" name="Default Changelist" comment="[Урок 2] домашнее задание">
+      <change afterPath="$PROJECT_DIR$/lesson3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/ru/gb/l3/TicTaeToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="lesson-2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:JM-AK/GB_Java1.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1cZaBARYyF39vOPcJQ4LUrqidpd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,10 +71,44 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.TicTaeToe">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lev1.lesson2.MainClass" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.lev1.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTaeToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.l3.TicTaeToe" />
+      <module name="lesson3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.l3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TicTaeToe" />
+        <item itemvalue="Application.MainClass" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1590738430375</updated>
     </task>
+    <task id="LOCAL-00001" summary="[Урок 2] домашнее задание">
+      <created>1590764108528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590764108528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,20 +136,94 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson-3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Урок 2] домашнее задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Урок 2] домашнее задание" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1806" y="94" key="#Project_Structure" timestamp="1590738568719">
+    <state x="1806" y="94" key="#Project_Structure" timestamp="1591102052119">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1806" y="94" key="#Project_Structure/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590738568719" />
+    <state x="1806" y="94" key="#Project_Structure/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591102052119" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1591102063422">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1259" height="192" key="GridCell.Tab.0.bottom/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1591002188956" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591102063422" />
+    <state width="1259" height="239" key="GridCell.Tab.0.bottom/0.0.1302.768@0.0.1302.768" timestamp="1590764180636" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1591102063422">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1259" height="192" key="GridCell.Tab.0.center/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1591002188956" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591102063422" />
+    <state width="1259" height="239" key="GridCell.Tab.0.center/0.0.1302.768@0.0.1302.768" timestamp="1590764180636" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1591102063421">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1259" height="192" key="GridCell.Tab.0.left/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1591002188955" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591102063421" />
+    <state width="1259" height="239" key="GridCell.Tab.0.left/0.0.1302.768@0.0.1302.768" timestamp="1590764180636" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1591102063422">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1259" height="192" key="GridCell.Tab.0.right/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1591002188956" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591102063422" />
+    <state width="1259" height="239" key="GridCell.Tab.0.right/0.0.1302.768@0.0.1302.768" timestamp="1590764180636" />
+    <state width="1259" height="239" key="GridCell.Tab.1.bottom" timestamp="1590764180637">
+      <screen x="0" y="0" width="1302" height="768" />
+    </state>
+    <state width="1259" height="239" key="GridCell.Tab.1.bottom/0.0.1302.768@0.0.1302.768" timestamp="1590764180637" />
+    <state width="1259" height="239" key="GridCell.Tab.1.center" timestamp="1590764180637">
+      <screen x="0" y="0" width="1302" height="768" />
+    </state>
+    <state width="1259" height="239" key="GridCell.Tab.1.center/0.0.1302.768@0.0.1302.768" timestamp="1590764180637" />
+    <state width="1259" height="239" key="GridCell.Tab.1.left" timestamp="1590764180637">
+      <screen x="0" y="0" width="1302" height="768" />
+    </state>
+    <state width="1259" height="239" key="GridCell.Tab.1.left/0.0.1302.768@0.0.1302.768" timestamp="1590764180637" />
+    <state width="1259" height="239" key="GridCell.Tab.1.right" timestamp="1590764180637">
+      <screen x="0" y="0" width="1302" height="768" />
+    </state>
+    <state width="1259" height="239" key="GridCell.Tab.1.right/0.0.1302.768@0.0.1302.768" timestamp="1590764180637" />
+    <state x="1797" y="195" key="MergeDialog" timestamp="1591101419519">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1797" y="195" key="MergeDialog/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591101419519" />
     <state x="1827" y="165" key="SettingsEditor" timestamp="1590738641833">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1827" y="165" key="SettingsEditor/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590738641833" />
+    <state x="1724" y="158" key="Vcs.Push.Dialog.v2" timestamp="1591102085704">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1724" y="158" key="Vcs.Push.Dialog.v2/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591102085704" />
+    <state x="243" y="117" key="Vcs.Push.Dialog.v2/0.0.1302.768@0.0.1302.768" timestamp="1590764115277" />
+    <state x="2105" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591101411953">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2105" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591101411953" />
+    <state x="1708" y="181" key="new project wizard" timestamp="1591101462879">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1708" y="181" key="new project wizard/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591101462879" />
   </component>
 </project>
