@@ -16,14 +16,33 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:lesson-6" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10254e7-983a-4438-9771-bfdcb5bdc34c" name="Default Changelist" comment="" />
+    <list default="true" id="e10254e7-983a-4438-9771-bfdcb5bdc34c" name="Default Changelist" comment="[Урок 5] ДЗ по введению в ООП">
+      <change afterPath="$PROJECT_DIR$/lesson6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/src/main/java/ru/gb/lesson6/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -40,8 +59,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -63,20 +82,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson-6" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1806" y="94" key="#Project_Structure" timestamp="1590738568719">
+    <state x="1806" y="94" key="#Project_Structure" timestamp="1591792689882">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1806" y="94" key="#Project_Structure/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590738568719" />
+    <state x="1806" y="94" key="#Project_Structure/63.0.1303.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591792689882" />
     <state x="1827" y="165" key="SettingsEditor" timestamp="1590738641833">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1827" y="165" key="SettingsEditor/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590738641833" />
+    <state x="1708" y="181" key="new project wizard" timestamp="1591792563433">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1708" y="181" key="new project wizard/63.0.1303.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591792563433" />
   </component>
 </project>
