@@ -48,7 +48,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="lesson-3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:JM-AK/GB_Java1.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1cZaBARYyF39vOPcJQ4LUrqidpd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
