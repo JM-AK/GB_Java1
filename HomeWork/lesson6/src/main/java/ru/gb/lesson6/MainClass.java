@@ -16,28 +16,44 @@ package ru.gb.lesson6;
 
 public class MainClass {
 
-
     public static void main(String[] args) {
         Bird bird1 = new Bird("B1", 5, 0.1d);
-        Bird bird2 = new Bird("B2", 3, 0.2d);
-
         Cat cat1 = new Cat("C1", 5, 1d);
-        Cat cat2 = new Cat("C2", 10, 2d);
-        Cat cat3 = new Cat("C3", 15, 3d);
-
         Dog dog1 = new Dog("D1", 7, 1d, 3);
-
         Horse horse1 = new Horse("H1", 100, 10d, 40);
 
-        bird1.run(1);
-        bird2.run(10);
+        checkRun(cat1, 3);
+        checkJump(cat1, 3);
+        checkSwim(cat1, 3);
 
-        System.out.println(Bird.getCount());
-        System.out.println(Cat.getCount());
-        System.out.println(Dog.getCount());
-        System.out.println(Horse.getCount());
-        System.out.println(Animal.getCount());
 
     }
+
+    public static void checkRun (Animal animal, int len){
+        if (animal.isRun(len)) {
+            System.out.println(animal.getClass().getSimpleName() + " пробежал");
+        } else {
+            System.out.println(animal.getClass().getSimpleName() + " не смог пробежать");
+        }
+    }
+    public static void checkJump (Animal animal, double height){
+        if (animal.isJump(height)) {
+            System.out.println(animal.getClass().getSimpleName() + " прыгнул");
+        } else {
+            System.out.println(animal.getClass().getSimpleName() + " не смог прыгнуть");
+        }
+    }
+    public static void checkSwim (Animal animal, int len) {
+        if (animal.getMaxSwim() == 0) {
+            System.out.println(animal.getClass().getSimpleName() + " не умеет плавать");
+        } else {
+            if (animal.isJump(len)) {
+                System.out.println(animal.getClass().getSimpleName() + " проплыл");
+            } else {
+                System.out.println(animal.getClass().getSimpleName() + " не смог проплыть");
+            }
+        }
+    }
+
 
 }
