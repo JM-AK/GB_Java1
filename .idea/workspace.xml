@@ -20,21 +20,28 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:lesson-6" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0756781c-c84d-48ce-bc5b-c34b4877848e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GB_Java1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/lesson3/lesson3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/lesson5/lesson5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/lesson6/lesson6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/lesson7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/lesson7/src/main/java/ru/gb/lesson7/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/HomeWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/HomeWork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson6/src/main/java/ru/gb/lesson6/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/lesson3/src/main/java/ru/gb/l3/TicTaeToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson3/src/main/java/ru/gb/lesson3/TicTaeToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/lesson3/target/classes/ru/gb/l3/TicTaeToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson3/target/classes/ru/gb/l3/TicTaeToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/META-INF/HomeWork.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +58,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-1" />
+        <entry key="$PROJECT_DIR$" value="lesson-6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/JM-AK/GB_Java1.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1cRS01pZMdONI6yhKLNADYICNYl" />
   <component name="ProjectViewState">
@@ -70,12 +84,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GB/Geekbrains-java1-master" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.MainClass (1)">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.MainClass" />
       <module name="lesson6" />
@@ -90,8 +104,8 @@
       </method>
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.MainClass" />
-      <module name="GB_Java1" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.l1.MainClass" />
+      <module name="lesson-1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.gb.l1.*" />
@@ -108,6 +122,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MainClass (1)" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MainClass" />
@@ -143,7 +158,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lesson-6" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -161,11 +176,11 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="552" y="85" key="#MainClass/0.0.1707.929@0.0.1707.929" timestamp="1591983957570" />
-    <state x="172" y="0" key="#Project_Structure" timestamp="1592044137760">
+    <state x="172" y="0" key="#Project_Structure" timestamp="1592052196389">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="131" y="0" key="#Project_Structure/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590491412696" />
-    <state x="172" y="0" key="#Project_Structure/0.0.1707.929@0.0.1707.929" timestamp="1592044137760" />
+    <state x="172" y="0" key="#Project_Structure/0.0.1707.929@0.0.1707.929" timestamp="1592052196389" />
     <state x="309" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591985319011">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
@@ -187,41 +202,42 @@
     </state>
     <state x="1812" y="155" key="FileChooserDialogImpl/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590738387141" />
     <state x="397" y="138" key="FileChooserDialogImpl/0.0.1707.929@0.0.1707.929" timestamp="1592040660290" />
-    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1592044727202">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1592052121627">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.bottom/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1592044727202" />
-    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1592044727202">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1592052121627" />
+    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1592052121627">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.center/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1592044727202" />
-    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1592044727202">
+    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1592052121627" />
+    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1592052121627">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.left/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1592044727202" />
-    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1592044727202">
+    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1592052121627" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1592052121627">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.right/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1592044727202" />
-    <state x="199" y="35" key="SettingsEditor" timestamp="1591985379697">
+    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1592052121627" />
+    <state x="199" y="35" key="SettingsEditor" timestamp="1592052277689">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="152" y="29" key="SettingsEditor/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590491568092" />
-    <state x="199" y="35" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1591985379697" />
-    <state x="319" y="142" key="Vcs.Push.Dialog.v2" timestamp="1592045405095">
+    <state x="199" y="35" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1592052277689" />
+    <state x="319" y="142" key="Vcs.Push.Dialog.v2" timestamp="1592052801767">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="243" y="117" key="Vcs.Push.Dialog.v2/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645466239" />
-    <state x="319" y="142" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1592045405095" />
-    <state x="1415" y="61" key="new project wizard" timestamp="1590738427878">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="319" y="142" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1592052801767" />
+    <state x="44" y="54" key="new project wizard" timestamp="1592052622126">
+      <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="33" y="45" key="new project wizard/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590489932115" />
     <state x="1415" y="61" key="new project wizard/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590738427878" />
+    <state x="44" y="54" key="new project wizard/0.0.1707.929@0.0.1707.929" timestamp="1592052622126" />
     <state x="510" y="213" key="run.anything.popup" timestamp="1592041269996">
       <screen x="0" y="0" width="1707" height="929" />
     </state>

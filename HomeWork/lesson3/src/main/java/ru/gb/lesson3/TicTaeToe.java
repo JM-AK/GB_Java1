@@ -1,6 +1,5 @@
-package ru.gb.l3;
+package ru.gb.lesson3;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
