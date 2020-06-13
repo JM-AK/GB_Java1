@@ -82,8 +82,9 @@ class TxtFileClass {
     }
 
     public boolean isContainWord (String word){
-
-        return false;
+        String s = getTextFromFile();
+        int index = s.lastIndexOf(word);
+        return index != -1;
     }
 
 }

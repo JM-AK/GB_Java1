@@ -14,8 +14,15 @@ public class MainClass {
 
     public static void main(String[] args) {
 
+//      [---Ввод данных для проверки методов---]
         String dirPath = "C:\\Users\\komle\\Рабочий стол\\test for java\\";
-        concatTwoFilesToNew (dirPath, "text_1.txt", "text_2.txt", "text_3.txt");
+        String t1 = "text_1.txt";
+        String t2 = "text_2.txt";
+        String t3 = "text_3.txt";
+//      [---Проверка методов---]
+        concatTwoFilesToNew (dirPath, t1, t2, t3);
+        System.out.println(isFileContainWord(dirPath, "text_1.txt", "Dollar"));
+
 
     }
 
@@ -32,6 +39,11 @@ public class MainClass {
             System.out.println("Files were concatenated");
         }
 
+    }
+
+    public static boolean isFileContainWord (String dirPath, String fileName, String word){
+        TxtFileClass t = new TxtFileClass(dirPath, fileName);
+        return t.isContainWord(word);
     }
 
 }
