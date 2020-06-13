@@ -25,10 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0756781c-c84d-48ce-bc5b-c34b4877848e" name="Default Changelist" comment="[Урок 7] Задача по сливанию файлов">
+    <list default="true" id="0756781c-c84d-48ce-bc5b-c34b4877848e" name="Default Changelist" comment="[Урок 7] + Задача по нахождению слова в файле">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HomeWork/lesson7/src/main/java/ru/gb/lesson7/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson7/src/main/java/ru/gb/lesson7/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson7/src/main/java/ru/gb/lesson7/TxtFileClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson7/src/main/java/ru/gb/lesson7/TxtFileClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592071662381</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Урок 7] + Задача по нахождению слова в файле">
+      <created>1592073564588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592073564588</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +211,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Урок 7] Создание модуля под ДЗ" />
     <MESSAGE value="[Урок 7] Задача по сливанию файлов" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Урок 7] Задача по сливанию файлов" />
+    <MESSAGE value="[Урок 7] + Задача по нахождению слова в файле" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Урок 7] + Задача по нахождению слова в файле" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="85" key="#MainClass" timestamp="1591983957570">
@@ -238,26 +245,26 @@
     </state>
     <state x="1812" y="155" key="FileChooserDialogImpl/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590738387141" />
     <state x="397" y="138" key="FileChooserDialogImpl/0.0.1707.929@0.0.1707.929" timestamp="1592054469772" />
-    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1592073505009">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1592077727514">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.bottom/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1592073505009" />
-    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1592073505009">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1592077727514" />
+    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1592077727514">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.center/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1592073505009" />
-    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1592073505009">
+    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1592077727514" />
+    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1592077727514">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.left/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1592073505009" />
-    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1592073505009">
+    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1592077727514" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1592077727514">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.right/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1592073505009" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1592077727514" />
     <state width="1663" height="304" key="GridCell.Tab.1.bottom" timestamp="1592064507999">
       <screen x="0" y="0" width="1707" height="929" />
     </state>

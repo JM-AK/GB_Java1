@@ -9,6 +9,8 @@ package ru.gb.lesson7;
 5. *** Написать метод, добавляющий, указанное слово в файлы в папке
  */
 
+import java.io.File;
+import java.io.FilenameFilter;
 
 public class MainClass {
 
@@ -21,8 +23,9 @@ public class MainClass {
         String t3 = "text_3.txt";
 //      [---Проверка методов---]
         concatTwoFilesToNew (dirPath, t1, t2, t3);
-        System.out.println(isFileContainWord(dirPath, "text_1.txt", "Dollar"));
-
+        System.out.println(isFileContainWord(dirPath, t1, "Dollar"));
+        System.out.println(isDirContainWord(dirPath, "Dollar"));
+        addWordToFiles(dirPath, "Dollar");
 
     }
 
@@ -44,6 +47,33 @@ public class MainClass {
     public static boolean isFileContainWord (String dirPath, String fileName, String word){
         TxtFileClass t = new TxtFileClass(dirPath, fileName);
         return t.isContainWord(word);
+    }
+
+    public static String[] dirFileList (String dirPath) {
+        File files = new File(dirPath);
+        FilenameFilter filter = new FilenameFilter() {
+            @Override
+            public boolean accept(File files, String name) {
+                return name.endsWith("txt");
+            }
+        };
+        return files.list(filter);
+    }
+
+    public static boolean isDirContainWord (String dirPath, String word){
+        String [] arrS = dirFileList(dirPath);
+        for (int i = 0; i < arrS.length; i ++){
+            if(isFileContainWord(dirPath, arrS[i], word)) return true;
+        }
+        return false;
+    }
+
+    public static void addWordToFiles(String dirPath, String word){
+        String [] arrS = dirFileList(dirPath);
+        for (int i = 0; i < arrS.length; i ++){
+            TxtFileClass t = new TxtFileClass(dirPath, arrS[i]);
+            t.addTextToFile(word);
+        }
     }
 
 }
