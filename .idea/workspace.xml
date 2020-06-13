@@ -20,28 +20,14 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:lesson-7" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0756781c-c84d-48ce-bc5b-c34b4877848e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GB_Java1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/lesson3/lesson3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/lesson5/lesson5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/lesson6/lesson6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/lesson7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/lesson7/src/main/java/ru/gb/lesson7/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0756781c-c84d-48ce-bc5b-c34b4877848e" name="Default Changelist" comment="[Урок 7] + Задача по нахождению слова в файле">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson3/src/main/java/ru/gb/l3/TicTaeToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson3/src/main/java/ru/gb/lesson3/TicTaeToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/lesson3/target/classes/ru/gb/l3/TicTaeToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson3/target/classes/ru/gb/l3/TicTaeToe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/target/classes/META-INF/HomeWork.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/lesson7/src/main/java/ru/gb/lesson7/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/lesson7/src/main/java/ru/gb/lesson7/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson-6" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,18 +70,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GB/Geekbrains-java1-master" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.MainClass">
+  <component name="RunManager" selected="Application.MainClass (2)">
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.lesson6.MainClass" />
       <module name="lesson6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.gb.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson7.MainClass" />
+      <module name="lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,15 +115,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TxtRedactorClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.lesson7.TxtRedactorClass" />
+      <module name="lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.MainClass (1)" />
+      <item itemvalue="Application.TxtRedactorClass" />
+      <item itemvalue="Application.MainClass (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass (2)" />
+        <item itemvalue="Application.TxtRedactorClass" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
@@ -140,6 +155,28 @@
       <option name="presentableId" value="Default" />
       <updated>1590489685856</updated>
     </task>
+    <task id="LOCAL-00001" summary="[Урок 7] Создание модуля под ДЗ">
+      <created>1592052865726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592052865726</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Урок 7] Задача по сливанию файлов">
+      <created>1592071662381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592071662381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Урок 7] + Задача по нахождению слова в файле">
+      <created>1592073564588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592073564588</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +195,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="lesson-7" />
                       </list>
                     </value>
                   </entry>
@@ -171,24 +208,30 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Урок 7] Создание модуля под ДЗ" />
+    <MESSAGE value="[Урок 7] Задача по сливанию файлов" />
+    <MESSAGE value="[Урок 7] + Задача по нахождению слова в файле" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Урок 7] + Задача по нахождению слова в файле" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="85" key="#MainClass" timestamp="1591983957570">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="552" y="85" key="#MainClass/0.0.1707.929@0.0.1707.929" timestamp="1591983957570" />
-    <state x="172" y="0" key="#Project_Structure" timestamp="1592052196389">
+    <state x="172" y="0" key="#Project_Structure" timestamp="1592059925405">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="131" y="0" key="#Project_Structure/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590491412696" />
-    <state x="172" y="0" key="#Project_Structure/0.0.1707.929@0.0.1707.929" timestamp="1592052196389" />
+    <state x="172" y="0" key="#Project_Structure/0.0.1707.929@0.0.1707.929" timestamp="1592059925405" />
     <state x="309" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591985319011">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="309" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.929@0.0.1707.929" timestamp="1591985319011" />
-    <state x="659" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1592044570193">
+    <state x="659" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1592067201430">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
-    <state x="659" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1707.929@0.0.1707.929" timestamp="1592044570193" />
+    <state x="659" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1707.929@0.0.1707.929" timestamp="1592067201430" />
     <state x="584" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591985315195">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
@@ -197,41 +240,57 @@
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="637" y="360" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1707.929@0.0.1707.929" timestamp="1592040879174" />
-    <state x="397" y="138" key="FileChooserDialogImpl" timestamp="1592040660290">
+    <state x="397" y="138" key="FileChooserDialogImpl" timestamp="1592054469772">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="1812" y="155" key="FileChooserDialogImpl/0.0.1302.768/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590738387141" />
-    <state x="397" y="138" key="FileChooserDialogImpl/0.0.1707.929@0.0.1707.929" timestamp="1592040660290" />
-    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1592052121627">
+    <state x="397" y="138" key="FileChooserDialogImpl/0.0.1707.929@0.0.1707.929" timestamp="1592054469772" />
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom" timestamp="1592077727514">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.bottom/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1592052121627" />
-    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1592052121627">
+    <state width="1663" height="245" key="GridCell.Tab.0.bottom/0.0.1707.929@0.0.1707.929" timestamp="1592077727514" />
+    <state width="1663" height="245" key="GridCell.Tab.0.center" timestamp="1592077727514">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.center/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1592052121627" />
-    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1592052121627">
+    <state width="1663" height="245" key="GridCell.Tab.0.center/0.0.1707.929@0.0.1707.929" timestamp="1592077727514" />
+    <state width="1663" height="245" key="GridCell.Tab.0.left" timestamp="1592077727514">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.left/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1592052121627" />
-    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1592052121627">
+    <state width="1663" height="245" key="GridCell.Tab.0.left/0.0.1707.929@0.0.1707.929" timestamp="1592077727514" />
+    <state width="1663" height="245" key="GridCell.Tab.0.right" timestamp="1592077727514">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state width="1259" height="192" key="GridCell.Tab.0.right/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645473445" />
-    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1592052121627" />
-    <state x="199" y="35" key="SettingsEditor" timestamp="1592052277689">
+    <state width="1663" height="245" key="GridCell.Tab.0.right/0.0.1707.929@0.0.1707.929" timestamp="1592077727514" />
+    <state width="1663" height="304" key="GridCell.Tab.1.bottom" timestamp="1592064507999">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state width="1663" height="304" key="GridCell.Tab.1.bottom/0.0.1707.929@0.0.1707.929" timestamp="1592064507999" />
+    <state width="1663" height="304" key="GridCell.Tab.1.center" timestamp="1592064507999">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state width="1663" height="304" key="GridCell.Tab.1.center/0.0.1707.929@0.0.1707.929" timestamp="1592064507999" />
+    <state width="1663" height="304" key="GridCell.Tab.1.left" timestamp="1592064507999">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state width="1663" height="304" key="GridCell.Tab.1.left/0.0.1707.929@0.0.1707.929" timestamp="1592064507999" />
+    <state width="1663" height="304" key="GridCell.Tab.1.right" timestamp="1592064507999">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state width="1663" height="304" key="GridCell.Tab.1.right/0.0.1707.929@0.0.1707.929" timestamp="1592064507999" />
+    <state x="199" y="35" key="SettingsEditor" timestamp="1592059955405">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="152" y="29" key="SettingsEditor/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590491568092" />
-    <state x="199" y="35" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1592052277689" />
-    <state x="319" y="142" key="Vcs.Push.Dialog.v2" timestamp="1592052801767">
+    <state x="199" y="35" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1592059955405" />
+    <state x="319" y="142" key="Vcs.Push.Dialog.v2" timestamp="1592071690997">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
     <state x="243" y="117" key="Vcs.Push.Dialog.v2/0.0.1302.768/1366.0.1920.1040@0.0.1302.768" timestamp="1590645466239" />
-    <state x="319" y="142" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1592052801767" />
+    <state x="319" y="142" key="Vcs.Push.Dialog.v2/0.0.1707.929@0.0.1707.929" timestamp="1592071690997" />
     <state x="44" y="54" key="new project wizard" timestamp="1592052622126">
       <screen x="0" y="0" width="1707" height="929" />
     </state>
